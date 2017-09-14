@@ -1,0 +1,5 @@
+rom sys import argv
+#from sys (package), import arguments.
+
+script, filename = argv
+file_again = input("> ")
