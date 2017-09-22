@@ -20,21 +20,21 @@ def byteConversion():
     terabyte = select_a_number*1099511627776
     terabyte_to_megabyte = select_a_number*1000000
 
-    if(menu_option == '1'):
+    if(menu_option == 1):
         #if user selects option 1 to convert kilobytes to bytes:
         print(f"You have {kilobytes} bytes.")
 
-    elif (menu_option == '2'):
+    elif (menu_option == 2):
         #else if user selects option 2 to convert megabyte to bytes:
 
         print(f"You have {megabyte} bytes.")
 
-    elif(menu_option == '3'):
+    elif(menu_option == 3):
         #else if user selects option 3 to convert terabyte to bytes:
 
         print(f"You have {terabyte} bytes.")
 
-    elif(menu_option == '4'):
+    elif(menu_option == 4):
         #else if user selects option 4 to convert terabyte to megabyte:
         print(f"You have {terabyte_to_megabyte} bytes.")
     else:
